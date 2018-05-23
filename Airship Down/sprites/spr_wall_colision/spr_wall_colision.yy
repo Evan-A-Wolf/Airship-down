@@ -2,7 +2,7 @@
     "id": "97497c8d-a931-4654-9064-56fa3363dc7f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite3",
+    "name": "spr_wall_colision",
     "For3D": false,
     "HTile": false,
     "VTile": false,

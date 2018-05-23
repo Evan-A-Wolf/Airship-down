@@ -20,5 +20,9 @@ cld = 1;
 
 //movement
 
-grav = 7;
+grav = 3;
 intert = 1;
+hsp = 0;
+vsp = 0;
+jump = true;
+direc = 1;
