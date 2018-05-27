@@ -151,11 +151,27 @@
             }
         },
         {
+            "Key": "62c7840f-d80a-44ca-9e82-49200f3f2f74",
+            "Value": {
+                "id": "80855916-8491-4410-b9dc-b70b569909e8",
+                "resourcePath": "scripts\\scr_battlemage_stats\\scr_battlemage_stats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "65d4a3ca-4001-40a1-ba88-44483740b1e7",
             "Value": {
                 "id": "66703bf9-aa31-477a-8d29-87418738fcba",
                 "resourcePath": "objects\\obj_wizard\\obj_wizard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6cb0ee22-946a-45e2-ae1e-81155eca3d54",
+            "Value": {
+                "id": "dcf97548-7f4b-4153-85aa-c22c89ab94a9",
+                "resourcePath": "scripts\\scr_caster_stats\\scr_caster_stats.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "19b98a49-d710-4693-934d-3c716fe26f74",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "affa7af5-653f-4165-a926-cc5b319cccc3",
+            "Value": {
+                "id": "7e097b3e-8b19-4e26-8709-e73f718ddb06",
+                "resourcePath": "scripts\\scr_wizard_stats\\scr_wizard_stats.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -352,7 +376,9 @@
         }
     ],
     "script_order": [
-        
+        "62c7840f-d80a-44ca-9e82-49200f3f2f74",
+        "affa7af5-653f-4165-a926-cc5b319cccc3",
+        "6cb0ee22-946a-45e2-ae1e-81155eca3d54"
     ],
     "tutorial": ""
 }

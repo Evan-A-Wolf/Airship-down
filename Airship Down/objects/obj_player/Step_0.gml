@@ -78,3 +78,18 @@ else{
 		}
 	}
 }
+
+if playerClass == false{
+	if playerClass == 1{
+		script_exists(scr_battlemage_stats)
+	}
+	if playerClass == 2{
+		script_exists(scr_wizard_stats)
+	}
+	if playerClass == 3{
+		script_exists(scr_caster_stats)
+	}
+}
+
+hp = maxhp - extdmg
+mp = maxmp - extdrain
