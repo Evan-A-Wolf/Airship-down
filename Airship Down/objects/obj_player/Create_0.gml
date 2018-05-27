@@ -20,7 +20,7 @@ lck = 1;
 
 //movement
 
-grav = 3;
+grav = 1.2;
 intert = 1;
 hsp = 0;
 vsp = 0;

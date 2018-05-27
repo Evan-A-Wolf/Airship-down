@@ -4,14 +4,14 @@ key_left = keyboard_check(ord("A"));
 key_jump = keyboard_check_pressed(ord("W"));
 
 var move = key_right - key_left;
-hsp = 10 *move * spd;
+hsp = 7 *move * spd;
 vsp += grav;
 
 //Jump
 if ((place_meeting(x,y+1,obj_wall)) or (place_meeting(x,y+1,obj_wall))) && (key_jump)
 {
-	vsp = -30;
-	hsp += 2 + sign(hsp)
+	vsp = -21;
+	hsp += sign(hsp)
 }
 
 
