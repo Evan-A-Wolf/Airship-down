@@ -1,5 +1,4 @@
-with obj_player
-class = 1
-if class = !0{
+with(obj_player)
+if playerClass != 0{
 	instance_destroy(obj_battlemage)
 }

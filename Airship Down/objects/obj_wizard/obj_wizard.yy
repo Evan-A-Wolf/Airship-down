@@ -5,7 +5,7 @@
     "name": "obj_wizard",
     "eventList": [
         {
-            "id": "ddbdc02d-b2ae-472c-a0a1-7f9c530cf92f",
+            "id": "fd70b5f5-0120-42f9-9c5a-f37336bf1b50",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "7ebef380-e1f7-4c0f-a769-0e32739f2019",
     "visible": true
 }

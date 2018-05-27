@@ -5,7 +5,7 @@
     "name": "obj_battlemage",
     "eventList": [
         {
-            "id": "9b6a1329-b545-49fe-8549-5d7397c2fac1",
+            "id": "2c02b283-f7ba-4e60-8194-d8a6761433fa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "db851074-f2b5-4313-adb3-87b8dda4a507",
     "visible": true
 }

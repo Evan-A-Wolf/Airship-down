@@ -1,5 +1,4 @@
-with obj_player
-class = 2
-if class = !0{
+with(obj_player)
+if playerClass != 0{
 	instance_destroy(obj_wizard)
 }
