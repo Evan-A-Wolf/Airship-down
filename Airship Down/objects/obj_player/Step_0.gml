@@ -7,13 +7,24 @@ var move = key_right - key_left;
 hsp = 7 *move * spd;
 vsp += grav;
 
-//Jump
-if ((place_meeting(x,y+1,obj_wall)) or (place_meeting(x,y+1,obj_wall))) && (key_jump)
+//Player jump mechanic
+if jump == true && (key_jump) && jcount >= 1
 {
-	vsp = -21;
+	vsp = -21
 	hsp += sign(hsp)
+	jump = false
+	jcount -= 1
 }
 
+//allows wall jumping
+if place_meeting(x+1, y, obj_wall) or place_meeting(x, y+1, obj_wall){
+	jump = true	
+}
+
+//restrics wall jumping to 3 times
+if place_meeting(x, y+1, obj_wall){
+	jcount = 3
+}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))

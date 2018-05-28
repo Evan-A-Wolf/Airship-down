@@ -25,6 +25,7 @@ intert = 1;
 hsp = 0;
 vsp = 0;
 jump = true;
+jcount = 3;
 direc = 1;
 
 //damage and other things like that
