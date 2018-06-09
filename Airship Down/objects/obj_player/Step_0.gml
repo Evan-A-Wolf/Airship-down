@@ -16,14 +16,10 @@ if jump == true && (key_jump) && jcount >= 1
 	jcount -= 1
 }
 
-//allows wall jumping
-if place_meeting(x+1, y, obj_wall) or place_meeting(x, y+1, obj_wall){
-	jump = true	
-}
-
-//restrics wall jumping to 3 times
-if place_meeting(x, y+1, obj_wall){
-	jcount = 3
+//slowed fall when on wall mechanic
+if place_meeting(x+1, y, obj_wall) && (key_right or key_left) && !place_meeting(x, y+1, obj_wall) && vsp >= 0
+{
+	vsp = 4
 }
 
 //Horizontal Collision

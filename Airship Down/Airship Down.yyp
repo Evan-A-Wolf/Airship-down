@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04c2dbf5-ee18-49c0-8410-7ef32c39f5c3",
+            "Value": {
+                "id": "960ca6ce-72c4-45f8-ad3c-4fb5647f25c1",
+                "resourcePath": "views\\04c2dbf5-ee18-49c0-8410-7ef32c39f5c3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "07b512f3-7e03-4b75-87ed-5c40e805a2f6",
             "Value": {
                 "id": "0e4237ca-7729-4d83-a4cb-b022958ee31f",
@@ -100,6 +108,14 @@
                 "id": "31ecde25-45f6-4ce8-92f7-5aa2a2c79ee8",
                 "resourcePath": "views\\39ecead2-2fa2-4b24-8736-1f565279a3d2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c8b6fbe-45e8-4214-8d38-febae9cf97a0",
+            "Value": {
+                "id": "d4ffd780-2065-471f-9bed-7840d9e3dc22",
+                "resourcePath": "objects\\obj_bunny\\obj_bunny.yy",
+                "resourceType": "GMObject"
             }
         },
         {
