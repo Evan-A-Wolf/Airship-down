@@ -86,6 +86,7 @@ else{
 	}
 }
 
+//class selection
 if playerClass == false{
 	if playerClass == 1{
 		script_exists(scr_battlemage_stats)
@@ -98,5 +99,12 @@ if playerClass == false{
 	}
 }
 
+//hp and mp calculation
 hp = maxhp - extdmg
 mp = maxmp - extdrain
+
+//player death
+if hp <= 0
+{
+	room_restart()
+}
